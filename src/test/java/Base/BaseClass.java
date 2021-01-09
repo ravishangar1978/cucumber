@@ -30,6 +30,8 @@ import ru.yandex.qatools.ashot.shooting.ShootingStrategies;
 import sales.SalesPageActions;
 
 
+
+
 public class BaseClass {
 	public static WebDriver driver;	
 	public static DashboardPageActions dashboardPageActions;
