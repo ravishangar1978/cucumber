@@ -1,0 +1,338 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12062772500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Register for the product",
+        "description": "",
+        "id": "register-for-the-product;register-for-the-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13421893800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 80800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Open the Chrome and launch the application",
+            "match": {
+              "location": "Steps.open_the_Firefox_and_launch_the_application()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 33700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4995557700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User register for the product",
+            "match": {
+              "location": "Steps.user_register_for_the_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 29400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105160500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 10200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "Close browser",
+            "match": {
+              "location": "Steps.close_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 23700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Register for the product",
+    "description": "",
+    "id": "register-for-the-product",
+    "keyword": "Feature",
+    "uri": "file:Features/FirstTest.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 188300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.BeforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Admin login",
+        "description": "",
+        "id": "first-admin-login;admin-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1337977700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 28900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "Open the Chrome",
+            "match": {
+              "location": "Steps1.open_the_browser()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 22000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5599770400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 10700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "Admin must login",
+            "match": {
+              "location": "Steps1.admin_must_login()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 22500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181750000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "sales data",
+            "match": {
+              "location": "Steps1.sales_data()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 25800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1719007300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 12500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "order data",
+            "match": {
+              "location": "Steps1.order_data()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 92800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1321453000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 18900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.BeforeStep(Scenario)"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "logout",
+            "match": {
+              "location": "Steps1.logout_data()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 15700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "Hooks.AfterStep()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "first Admin login",
+    "description": "",
+    "id": "first-admin-login",
+    "keyword": "Feature",
+    "uri": "file:Features/secondtest.feature",
+    "tags": []
+  }
+]
