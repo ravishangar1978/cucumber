@@ -11,7 +11,8 @@ public class LogoutPage {
 	 WebDriverWait wait;
 	 
 	  public LogoutPage(WebDriver tmpdriver)
-		{
+		{   
+		    // i am the sencond comment
 			driver=tmpdriver;
 			 wait = new WebDriverWait(driver,30);
 		}
