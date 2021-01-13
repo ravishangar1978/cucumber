@@ -12,7 +12,8 @@ public class loginpage {
 	 WebDriverWait wait;
 	 
 	  public loginpage(WebDriver tmpdriver)
-		{
+		{      
+                       // i am a new comment
 			driver=tmpdriver;
 			 wait = new WebDriverWait(driver,30);
 		}
