@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class loginpage {
 	
-	 WebDriver driver;
+         WebDriver driver;
 	 WebDriverWait wait;
 	 
 	  public loginpage(WebDriver tmpdriver)
