@@ -21,6 +21,7 @@ public class OrderPage {
 		
 		
 		return wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[3]/div[2]/div/ul/li[3]/ul/li[1]/a/span")));
+		// new commit
 	}
 }
 
