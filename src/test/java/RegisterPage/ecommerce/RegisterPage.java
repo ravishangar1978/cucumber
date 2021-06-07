@@ -12,7 +12,7 @@ public class RegisterPage {
 	
 WebDriver driver;
 WebDriverWait wait;
-
+//latest comment
 public RegisterPage(WebDriver tmpdriver)
 {
 	driver=tmpdriver;

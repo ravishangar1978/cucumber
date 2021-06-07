@@ -33,6 +33,7 @@ import sales.SalesPageActions;
 public class BaseClass {
 	public static WebDriver driver;	
 	public static DashboardPageActions dashboardPageActions;
+	//middle comment
 	public static RegisterPageAction registerPageAction;
 	public static CommonPageActions commonPageActions;
 	public static ProductPageActions productPageActions;
