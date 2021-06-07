@@ -61,7 +61,7 @@ public class BaseClass {
         File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
         File DestFile=new File(fileWithPath);
         FileUtils.copyFile(SrcFile, DestFile);
-        
+       // base comment 
         Screenshot Screenshot = new AShot().shootingStrategy(ShootingStrategies.viewportPasting(1000)).takeScreenshot(webdriver);
 
         ImageIO.write(Screenshot.getImage(), "jpg", new File("c://myassign//test.jpg"));
