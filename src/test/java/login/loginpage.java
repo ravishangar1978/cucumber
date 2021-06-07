@@ -10,7 +10,7 @@ public class loginpage {
 	
          WebDriver driver;
 	 WebDriverWait wait;
-	 // new comment on  6/7/2021
+	 
 	  public loginpage(WebDriver tmpdriver)
 		{      
                        
