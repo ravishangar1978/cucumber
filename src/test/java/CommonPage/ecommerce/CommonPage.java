@@ -1,7 +1,7 @@
 package CommonPage.ecommerce;
 
 import org.openqa.selenium.WebDriver;
-
+// common comment
 public class CommonPage {
  // adding driver
 	// common driver
